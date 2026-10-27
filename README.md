@@ -44,8 +44,8 @@ Poker Detect/
 
 ## 环境
 
-- Python 3.13、opencv 4.12、numpy 2.2、pillow 11
-- 字体直接取 `C:\Windows\Fonts`（Times / Georgia / Arial / Cambria 等 + Segoe UI Symbol 的花色符号），非 Windows 要改 `ranksuit._FONT_DIR`
+- Python 3.10+（实测 3.13）、opencv 4.12、numpy 2.2、pillow 11
+- **字体依赖 Windows**：模板从 `C:\Windows\Fonts` 取（Times / Georgia / Arial / Cambria + Segoe UI Symbol 的花色符号）。macOS / Linux 需要改 `ranksuit._FONT_DIR` 并确认系统里有带 ♠♥♦♣ 的字体
 
 ```powershell
 pip install -r requirements.txt
@@ -53,14 +53,47 @@ pip install -r requirements.txt
 
 ## 运行
 
+下面的 `python` 换成你自己的解释器（本机是 `D:\Py\python.exe`）：
+
 ```powershell
-D:\Py\python.exe src\card_recognize.py             # 主程序，默认跑 data/cards_sample.jpg
-D:\Py\python.exe src\card_recognize.py 图片路径      # 换图片
-D:\Py\python.exe src\card_detection.py             # 只看定位
-D:\Py\python.exe src\robustness_test.py            # 跑上面那张表
+python src/card_recognize.py            # 主程序，默认跑 data/cards_sample.jpg
+python src/card_recognize.py 图片路径    # 换一张图
+python src/card_detection.py            # 只看定位
+python src/robustness_test.py           # 跑上面那张准确率表
 ```
 
 结果写到 `output/step3_result.jpg`（原图 + 框 + 标签）和 `output/step3_cards.jpg`（摆正后的牌）。
+
+## 团队协作
+
+第一次拉代码：
+
+```powershell
+git clone https://github.com/WuSuu-Han/poker-detect.git
+cd poker-detect
+pip install -r requirements.txt
+python src/card_recognize.py     # 先确认本机能跑通
+```
+
+每次改东西都开自己的分支，**不要直接推 `main`**：
+
+```powershell
+git pull                          # 先同步别人的改动
+git checkout -b feature/light-table
+# ...改代码...
+python src/robustness_test.py     # 改完必须跑，准确率不能掉
+git add -A
+git commit -m "定位：加浅色桌面分割"
+git push -u origin feature/light-table
+```
+
+推完在网页上发 Pull Request，等 Review 合进 `main`。
+
+约定：
+
+- 改定位或识别，必须贴出 `robustness_test.py` 前后两次数值，掉了要说明原因
+- 一条分支只做一件事，提交信息写清“哪个模块 + 改了什么”
+- `output/`、`scratch/` 不进仓库（`.gitignore` 已处理）
 
 ## 实现要点
 
