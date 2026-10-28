@@ -1,0 +1,9 @@
+﻿image,index,rank,suit,score,accepted,rotation,quad
+C:\Users\18081\Desktop\数字图像处理\poker-detect-main\data\cards_sample.jpg,1,9,s,0.9228,True,0,"[[103.0, 145.0], [276.0, 219.0], [193.0, 343.0], [7.0, 256.0]]"
+C:\Users\18081\Desktop\数字图像处理\poker-detect-main\data\cards_sample.jpg,2,A,d,0.9385,True,0,"[[253.0, 27.0], [372.0, 36.0], [357.0, 171.0], [218.0, 160.0]]"
+C:\Users\18081\Desktop\数字图像处理\poker-detect-main\data\cards_sample.jpg,3,A,c,0.8143,True,0,"[[375.0, 139.0], [459.0, 72.0], [600.0, 171.0], [518.0, 256.0]]"
+C:\Users\18081\Desktop\数字图像处理\poker-detect-main\data\cards_sample.jpg,4,7,c,0.8578,True,0,"[[557.0, 10.0], [666.0, 13.0], [706.0, 135.0], [582.0, 134.0]]"
+C:\Users\18081\Desktop\数字图像处理\poker-detect-main\data\cards_sample.jpg,5,6,c,0.8556,True,0,"[[836.0, 116.0], [948.0, 182.0], [885.0, 306.0], [753.0, 216.0]]"
+C:\Users\18081\Desktop\数字图像处理\poker-detect-main\data\cards_sample.jpg,6,Q,s,0.8133,True,0,"[[68.0, 459.0], [296.0, 326.0], [381.0, 463.0], [136.0, 631.0]]"
+C:\Users\18081\Desktop\数字图像处理\poker-detect-main\data\cards_sample.jpg,7,10,h,0.9269,True,180,"[[439.0, 268.0], [585.0, 286.0], [594.0, 510.0], [419.0, 490.0]]"
+C:\Users\18081\Desktop\数字图像处理\poker-detect-main\data\cards_sample.jpg,8,4,s,0.8659,True,0,"[[682.0, 259.0], [829.0, 314.0], [808.0, 526.0], [634.0, 452.0]]"
