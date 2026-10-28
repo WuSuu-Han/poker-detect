@@ -1,0 +1,253 @@
+{
+  "scope": "Single sample synthetic regression; no independent real-photo verification. Multiset counts do not measure localization precision.",
+  "versions": {
+    "python": "3.14.7",
+    "opencv": "5.0.0",
+    "numpy": "2.5.4"
+  },
+  "legacy_correct": 52,
+  "legacy_total": 56,
+  "real_photos_verified": false,
+  "scenarios": [
+    {
+      "scenario": "原图",
+      "detected": 8,
+      "multiset_correct": 8,
+      "truth": 8,
+      "predictions": [
+        "9S",
+        "AD",
+        "AC",
+        "7C",
+        "6C",
+        "QS",
+        "10H",
+        "4S"
+      ]
+    },
+    {
+      "scenario": "暗光 45%",
+      "detected": 8,
+      "multiset_correct": 8,
+      "truth": 8,
+      "predictions": [
+        "9S",
+        "AD",
+        "AC",
+        "7C",
+        "6C",
+        "QS",
+        "10H",
+        "4S"
+      ]
+    },
+    {
+      "scenario": "过曝 1.35",
+      "detected": 8,
+      "multiset_correct": 8,
+      "truth": 8,
+      "predictions": [
+        "9S",
+        "AD",
+        "AC",
+        "7C",
+        "6C",
+        "QS",
+        "10H",
+        "4S"
+      ]
+    },
+    {
+      "scenario": "模糊 7x7",
+      "detected": 8,
+      "multiset_correct": 6,
+      "truth": 8,
+      "predictions": [
+        "9S",
+        "AD",
+        "AC",
+        "8S",
+        "6C",
+        "QS",
+        "6H",
+        "4S"
+      ]
+    },
+    {
+      "scenario": "JPEG q20",
+      "detected": 8,
+      "multiset_correct": 8,
+      "truth": 8,
+      "predictions": [
+        "9S",
+        "AD",
+        "AC",
+        "7C",
+        "6C",
+        "QS",
+        "10H",
+        "4S"
+      ]
+    },
+    {
+      "scenario": "旋转 20°",
+      "detected": 8,
+      "multiset_correct": 6,
+      "truth": 8,
+      "predictions": [
+        "9S",
+        "AD",
+        "AC",
+        "10H",
+        "8S",
+        "4S",
+        "6S",
+        "QS"
+      ]
+    },
+    {
+      "scenario": "透视",
+      "detected": 8,
+      "multiset_correct": 8,
+      "truth": 8,
+      "predictions": [
+        "9S",
+        "QS",
+        "AD",
+        "AC",
+        "10H",
+        "7C",
+        "4S",
+        "6C"
+      ]
+    },
+    {
+      "scenario": "rotate_bound_15",
+      "detected": 8,
+      "multiset_correct": 8,
+      "truth": 8,
+      "predictions": [
+        "AD",
+        "AC",
+        "7C",
+        "6C",
+        "9S",
+        "10H",
+        "4S",
+        "QS"
+      ]
+    },
+    {
+      "scenario": "rotate_bound_30",
+      "detected": 8,
+      "multiset_correct": 8,
+      "truth": 8,
+      "predictions": [
+        "9S",
+        "AD",
+        "AC",
+        "7C",
+        "10H",
+        "4S",
+        "6C",
+        "QS"
+      ]
+    },
+    {
+      "scenario": "rotate_bound_45",
+      "detected": 8,
+      "multiset_correct": 8,
+      "truth": 8,
+      "predictions": [
+        "AD",
+        "AC",
+        "7C",
+        "10H",
+        "6C",
+        "4S",
+        "9S",
+        "QS"
+      ]
+    },
+    {
+      "scenario": "rotate_bound_60",
+      "detected": 8,
+      "multiset_correct": 8,
+      "truth": 8,
+      "predictions": [
+        "AD",
+        "7C",
+        "AC",
+        "10H",
+        "6C",
+        "4S",
+        "9S",
+        "QS"
+      ]
+    },
+    {
+      "scenario": "rotate_bound_75",
+      "detected": 8,
+      "multiset_correct": 8,
+      "truth": 8,
+      "predictions": [
+        "6C",
+        "7C",
+        "4S",
+        "AD",
+        "AC",
+        "10H",
+        "9S",
+        "QS"
+      ]
+    },
+    {
+      "scenario": "rotate_bound_90",
+      "detected": 8,
+      "multiset_correct": 6,
+      "truth": 8,
+      "predictions": [
+        "7C",
+        "AS",
+        "6C",
+        "4S",
+        "10H",
+        "AD",
+        "9S",
+        "QC"
+      ]
+    },
+    {
+      "scenario": "rotate_bound_180",
+      "detected": 8,
+      "multiset_correct": 8,
+      "truth": 8,
+      "predictions": [
+        "4S",
+        "10H",
+        "QS",
+        "6C",
+        "7C",
+        "AC",
+        "AD",
+        "9S"
+      ]
+    },
+    {
+      "scenario": "rotate_bound_270",
+      "detected": 8,
+      "multiset_correct": 8,
+      "truth": 8,
+      "predictions": [
+        "QS",
+        "9S",
+        "AD",
+        "10H",
+        "4S",
+        "6C",
+        "AC",
+        "7C"
+      ]
+    }
+  ]
+}

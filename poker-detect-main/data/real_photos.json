@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "description": "No real multi-angle photographs supplied yet. Use src/annotate.py to add independent annotations.",
+  "images": []
+}

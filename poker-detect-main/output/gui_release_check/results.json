@@ -1,0 +1,218 @@
+[
+  {
+    "image": "C:\\Users\\18081\\Desktop\\数字图像处理\\poker-detect-main\\data\\cards_sample.jpg",
+    "index": 1,
+    "rank": "9",
+    "suit": "s",
+    "score": 0.9228,
+    "accepted": true,
+    "rotation": 0,
+    "quad": [
+      [
+        103.0,
+        145.0
+      ],
+      [
+        276.0,
+        219.0
+      ],
+      [
+        193.0,
+        343.0
+      ],
+      [
+        7.0,
+        256.0
+      ]
+    ]
+  },
+  {
+    "image": "C:\\Users\\18081\\Desktop\\数字图像处理\\poker-detect-main\\data\\cards_sample.jpg",
+    "index": 2,
+    "rank": "A",
+    "suit": "d",
+    "score": 0.9385,
+    "accepted": true,
+    "rotation": 0,
+    "quad": [
+      [
+        253.0,
+        27.0
+      ],
+      [
+        372.0,
+        36.0
+      ],
+      [
+        357.0,
+        171.0
+      ],
+      [
+        218.0,
+        160.0
+      ]
+    ]
+  },
+  {
+    "image": "C:\\Users\\18081\\Desktop\\数字图像处理\\poker-detect-main\\data\\cards_sample.jpg",
+    "index": 3,
+    "rank": "A",
+    "suit": "c",
+    "score": 0.8143,
+    "accepted": true,
+    "rotation": 0,
+    "quad": [
+      [
+        375.0,
+        139.0
+      ],
+      [
+        459.0,
+        72.0
+      ],
+      [
+        600.0,
+        171.0
+      ],
+      [
+        518.0,
+        256.0
+      ]
+    ]
+  },
+  {
+    "image": "C:\\Users\\18081\\Desktop\\数字图像处理\\poker-detect-main\\data\\cards_sample.jpg",
+    "index": 4,
+    "rank": "7",
+    "suit": "c",
+    "score": 0.8578,
+    "accepted": true,
+    "rotation": 0,
+    "quad": [
+      [
+        557.0,
+        10.0
+      ],
+      [
+        666.0,
+        13.0
+      ],
+      [
+        706.0,
+        135.0
+      ],
+      [
+        582.0,
+        134.0
+      ]
+    ]
+  },
+  {
+    "image": "C:\\Users\\18081\\Desktop\\数字图像处理\\poker-detect-main\\data\\cards_sample.jpg",
+    "index": 5,
+    "rank": "6",
+    "suit": "c",
+    "score": 0.8556,
+    "accepted": true,
+    "rotation": 0,
+    "quad": [
+      [
+        836.0,
+        116.0
+      ],
+      [
+        948.0,
+        182.0
+      ],
+      [
+        885.0,
+        306.0
+      ],
+      [
+        753.0,
+        216.0
+      ]
+    ]
+  },
+  {
+    "image": "C:\\Users\\18081\\Desktop\\数字图像处理\\poker-detect-main\\data\\cards_sample.jpg",
+    "index": 6,
+    "rank": "Q",
+    "suit": "s",
+    "score": 0.8133,
+    "accepted": true,
+    "rotation": 0,
+    "quad": [
+      [
+        68.0,
+        459.0
+      ],
+      [
+        296.0,
+        326.0
+      ],
+      [
+        381.0,
+        463.0
+      ],
+      [
+        136.0,
+        631.0
+      ]
+    ]
+  },
+  {
+    "image": "C:\\Users\\18081\\Desktop\\数字图像处理\\poker-detect-main\\data\\cards_sample.jpg",
+    "index": 7,
+    "rank": "10",
+    "suit": "h",
+    "score": 0.9269,
+    "accepted": true,
+    "rotation": 180,
+    "quad": [
+      [
+        439.0,
+        268.0
+      ],
+      [
+        585.0,
+        286.0
+      ],
+      [
+        594.0,
+        510.0
+      ],
+      [
+        419.0,
+        490.0
+      ]
+    ]
+  },
+  {
+    "image": "C:\\Users\\18081\\Desktop\\数字图像处理\\poker-detect-main\\data\\cards_sample.jpg",
+    "index": 8,
+    "rank": "4",
+    "suit": "s",
+    "score": 0.8659,
+    "accepted": true,
+    "rotation": 0,
+    "quad": [
+      [
+        682.0,
+        259.0
+      ],
+      [
+        829.0,
+        314.0
+      ],
+      [
+        808.0,
+        526.0
+      ],
+      [
+        634.0,
+        452.0
+      ]
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "scope": "Only annotated images; synthetic variants are not independent real photos.",
+  "real_photo_count": 0,
+  "versions": {
+    "python": "3.14.7",
+    "opencv": "5.0.0",
+    "numpy": "2.5.4"
+  },
+  "counts": {},
+  "metrics": {
+    "precision": null,
+    "recall": null,
+    "f1": null,
+    "rank_accuracy": null,
+    "suit_accuracy": null,
+    "full_accuracy": null,
+    "coverage": null,
+    "unknown_rate": null,
+    "accepted_accuracy": null
+  },
+  "confusion": [],
+  "images": []
+}
