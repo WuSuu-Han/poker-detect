@@ -1,0 +1,4 @@
+# Verified 2026-10-27 with Python 3.14.7 on Windows.
+opencv-python==5.0.0.93
+numpy==2.5.4
+Pillow==13.0.0
