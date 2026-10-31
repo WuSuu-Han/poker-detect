@@ -1,15 +1,12 @@
-# 运行产物
 output/
-
-# 开发时的临时脚本
+backups/
 scratch/
-
-# Python
+.venv/
 __pycache__/
 *.py[cod]
 *.egg-info/
-
-# 编辑器 / 系统
+*.log
+.pytest_cache/
 .vscode/
 .idea/
 .DS_Store
